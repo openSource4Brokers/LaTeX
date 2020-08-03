@@ -1,4 +1,4 @@
-# Beginner (LaTeX)
+# Beginner
 
 ## DEV Tools used (Linux, Windows, Mac)
 
@@ -23,8 +23,6 @@ With choco, install pandoc and all tools:
 - [MikTex](https://miktex.org/): `choco install miktex`
 
 - [Or all in one command line](https://pandoc.org/installing.html): `choco install pandoc rsvg-convert python miktex`
-
-
 
 In the project directory, do `npm start` to run the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits. You will also see any lint errors in the console.
