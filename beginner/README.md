@@ -1,42 +1,18 @@
 # Beginner
 
-## DEV Tools used (Linux, Windows, Mac)
+[Absolute beginners](https://www.andy-roberts.net/writing/latex/absolute_beginners)
 
-- [NodeJS](https://nodejs.org/)
-- [Visual Studio Code](https://code.visualstudio.com/)
+## latex
 
-Eventually on Windows or Mac
+- latex help: `latex --help`
+- processing the source file hello.tex: `latex hello`
 
-- [Github Desktop](https://desktop.github.com/)
+## dvips
 
-## First steps (MS Windows)
+- dvips help: `dvips --help`
+- convert latex processed dvi file to postscript: `dvips hello.dvi -o hello.ps`
 
-Install first choco:
+## ps2pdf
 
-- [Chocolatey](https://chocolatey.org/)
-
-With choco, install pandoc and all tools:
-
-- [Pandoc](https://pandoc.org/): `choco install pandoc`
-- [rsvg-convert](https://wiki.gnome.org/Projects/LibRsvg): `choco install rsvg-convert`
-- [Python](https://www.python.org/): `choco install python`
-- [MikTex](https://miktex.org/): `choco install miktex`
-
-- [Or all in one command line](https://pandoc.org/installing.html): `choco install pandoc rsvg-convert python miktex`
-
-In the project directory, do `npm start` to run the app in the development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits. You will also see any lint errors in the console.
-
-Use the React SPA boilerplate for the app:
-
-## VSC Extensions used
-
-- Auto Import (=> in settings add js,jsx for files to scan)
-- Auto Rename Tag
-- Bracket Pair Colorizer 2
-- ESLint
-- JavaScript Debugger (Nightly)
-- Material Icon Theme
-- npm Intellisense
-- Path Intellisense
-- Prettier - Code formatter
+- ps2pdf help: `ps2pdf --help`
+- convert postscript processed ps file to pdf: `ps2pdf hello.ps hello.pdf`
