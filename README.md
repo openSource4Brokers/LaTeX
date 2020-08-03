@@ -26,5 +26,5 @@ With choco, install pandoc and all tools:
 
 ## VSC Extensions used
 
-- Material Icon Theme
+- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 - [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop)
