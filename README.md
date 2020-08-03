@@ -23,8 +23,8 @@ With choco, install pandoc and all tools:
 - [MikTex](https://miktex.org/): `choco install miktex`
 
 - [Or all in one command line](https://pandoc.org/installing.html): `choco install pandoc rsvg-convert python miktex`
-  
+
 ## VSC Extensions used
 
 - Material Icon Theme
-- Prettier - Code formatter
+- [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop)
