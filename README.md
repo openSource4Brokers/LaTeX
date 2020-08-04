@@ -29,3 +29,7 @@ With choco, install pandoc and all tools:
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 - [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop)
 - [LaTeX Utilities](https://github.com/tecosaur/LaTeX-Utilities/)
+- [vscode-pdf](https://github.com/tomoki1207/vscode-pdfviewer)
+
+- [ActivePerl for LaTeX Workshop](https://www.activestate.com/products/perl/downloads/)
+
