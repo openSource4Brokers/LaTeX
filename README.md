@@ -1,14 +1,5 @@
 # LaTeX
 
-## DEV Tools used (Linux, Windows, Mac)
-
-- [NodeJS](https://nodejs.org/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-
-Eventually on Windows or Mac
-
-- [Github Desktop](https://desktop.github.com/)
-
 ## First steps (MS Windows)
 
 Install first choco:
@@ -24,12 +15,18 @@ With choco, install pandoc and all tools:
 
 - [Or all in one command line](https://pandoc.org/installing.html): `choco install pandoc rsvg-convert python miktex`
 
-## VSC Extensions used
+## Use VSCode DEV Tools (Linux, Windows, Mac)
+
+- [NodeJS](https://nodejs.org/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [ActivePerl for LaTeX Workshop](https://www.activestate.com/products/perl/downloads/)
+
+### VSC Extensions used
 
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 - [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop)
-- [LaTeX Utilities](https://github.com/tecosaur/LaTeX-Utilities/)
 - [vscode-pdf](https://github.com/tomoki1207/vscode-pdfviewer)
 
-- [ActivePerl for LaTeX Workshop](https://www.activestate.com/products/perl/downloads/)
+## Or use TexMaker (Windows, Linux or Mac)
 
+- [Texmaker](https://www.xm1math.net/texmaker/)
