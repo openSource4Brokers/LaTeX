@@ -1,6 +1,6 @@
 # Michelle Krummel
 
-[LaTeX](https://www.michellekrummel.com/) ([13 youtube tutorials](https://www.youtube.com/watch?v=SoDv0qhyysQ&list=PL1D4EAB31D3EBC449))
+[LaTeX](https://www.michellekrummel.com/) ([13 youtube tutorials](https://www.youtube.com/watch?v=0ivLZh9xK1Q&list=PL1D4EAB31D3EBC449&index=1))
 
 ## Texmaker (Windows, Mac, Linux)
 
