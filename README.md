@@ -1,6 +1,6 @@
-# LaTeX (on MS Windows)
+# LaTeX (MS Windows and Linux Mint/Ubuntu)
 
-## Linux Mint First steps
+## Linux First steps
 
 sudo apt install latexmk
 
