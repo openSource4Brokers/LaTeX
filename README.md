@@ -27,6 +27,6 @@ With choco, install pandoc and all tools:
 - [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop)
 - [vscode-pdf](https://github.com/tomoki1207/vscode-pdfviewer)
 
-## Or use TexMaker (Windows, Linux or Mac)
+## And/Or combine with TexMaker (Windows, Linux or Mac)
 
 - [Texmaker](https://www.xm1math.net/texmaker/)
