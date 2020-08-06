@@ -1,11 +1,45 @@
 # LaTeX (MS Windows and Linux Mint/Ubuntu)
 
-## Linux First steps
+## Explore
 
-sudo apt install latexmk
+Check first if all is prepared (see below 'preparing' for Linux or Windows)
+When ready:
 
-## First step (Windows)
+- get our LaTeX project with Git via a terminal  `git clone https://github.com/openSource4Brokers/LaTeX.git`
+- move into the new LaTeX directory, `cd LaTeX` (case sensitive on Linux!)
+- and open the project with vscode: `code .`
+- Or explore the *.tex files with Texmaker
 
+## Preparing for Linux Mint
+
+- [Install Git](https://git-scm.com/download/linux): `sudo apt-get install git`
+- [Install latexmk](https://www.ctan.org/pkg/latexmk/): `sudo apt install latexmk`
+
+### Preparing Texmaker
+
+Download from the website the latest package (*.deb) for your Ubuntu/Mint installation or search for texmaker within the 'safe' program manager in Ubuntu/Mint (mostly this will install an older version of Texmaker):
+
+- [Texmaker](https://www.xm1math.net/texmaker/)
+
+### Preparing vscode
+
+Same as for Texmaker. If you know what you are doing, get the latest (*.deb) or install via Program Manager
+
+- [Visual Studio Code](https://code.visualstudio.com/)
+
+#### VSC Extensions
+
+- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+- [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop)
+
+## Preparing for Windows
+
+Get (*.exe) and install Git, Texmaker and/or vscode
+
+- [Git](https://git-scm.com/)
+- [Texmaker](https://www.xm1math.net/texmaker/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+  
 Install choco:
 
 - [Chocolatey](https://chocolatey.org/)
@@ -16,34 +50,21 @@ With choco, install pandoc and all tools:
 - [rsvg-convert](https://wiki.gnome.org/Projects/LibRsvg): `choco install rsvg-convert`
 - [Python](https://www.python.org/): `choco install python`
 - [MikTex](https://miktex.org/): `choco install miktex`
-
 - [Or all in one command line](https://pandoc.org/installing.html): `choco install pandoc rsvg-convert python miktex`
 
-## Second step
+### VSC Extensions Windows
 
-### Use VSCode DEV Tools (Linux, Windows, Mac)
+On Windows, the LaTeX Workshop extension needs Perl
 
-- [NodeJS](https://nodejs.org/)
-- [Visual Studio Code](https://code.visualstudio.com/)
 - [ActivePerl for LaTeX Workshop](https://www.activestate.com/products/perl/downloads/)
-
-#### VSC Extensions Linux and Windows
+  
+The extensions used:
 
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 - [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop)
 
-#### VSC Extensions Windows only
-
-LaTeX Workshop will complain about incompatibility. Just ignore anoying message down right...
+At this moment (august 2020) LaTeX Workshop pdf view does not work and you can get around with extension:
 
 - [vscode-pdf](https://github.com/tomoki1207/vscode-pdfviewer)
-
-## Texmaker great alternative tool! (Windows, Linux or Mac)
-
-Combine use with Texmaker
-
-- [Texmaker](https://www.xm1math.net/texmaker/)
-
-## Other tools (Windows, Linux or Mac)
-
-- [Install Git](https://git-scm.com/download/linux): `sudo apt-get install git`
+  
+ This will do the job but LaTeX Workshop will complain with a warning about incompatibility with the vscode-pdf. Just ignore because it does work... Remove or disable vscode-pdf later when LaTeX Workshop gets fixed for pdf view problem.
