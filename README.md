@@ -5,7 +5,7 @@
 Check first if all is prepared (see below 'preparing' for Linux or Windows)
 When ready:
 
-- get our LaTeX project with Git via a terminal  `git clone https://github.com/openSource4Brokers/LaTeX.git`
+- get this LaTeX project with Git via a terminal  `git clone https://github.com/openSource4Brokers/LaTeX.git`
 - move into the new LaTeX directory, `cd LaTeX` (case sensitive on Linux!)
 - and open the project with vscode: `code .`
 - Or explore the *.tex files with Texmaker
