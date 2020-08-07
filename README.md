@@ -2,12 +2,13 @@
 
 ## Explore
 
-Check first if all is prepared (see below 'preparing' for Linux or Windows)
+Check first if all is prepared (see below 'preparing' for Linux or Windows).
+
 When ready:
 
-- get this LaTeX project with Git via a terminal  `git clone https://github.com/openSource4Brokers/LaTeX.git`
+- clone this beginners project into your computer repos folder with Git: `git clone https://github.com/openSource4Brokers/LaTeX.git`
 - move into the new LaTeX directory, `cd LaTeX` (case sensitive on Linux!)
-- and open the project with vscode: `code .`
+- open the project with vscode: `code .`
 - Or explore the *.tex files with Texmaker
 
 ## Preparing for Linux Mint
@@ -52,9 +53,9 @@ With choco, install pandoc and all tools:
 - [MikTex](https://miktex.org/): `choco install miktex`
 - [Or all in one command line](https://pandoc.org/installing.html): `choco install pandoc rsvg-convert python miktex`
 
-### VSC Extensions Windows
+### VSC Extensions on Windows
 
-On Windows, the LaTeX Workshop extension needs Perl
+On Windows, the vsc LaTeX Workshop extension needs Perl
 
 - [ActivePerl for LaTeX Workshop](https://www.activestate.com/products/perl/downloads/)
   
