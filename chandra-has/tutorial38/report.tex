@@ -1,0 +1,84 @@
+%===============Section formatting by C. Has=================================
+\documentclass[10pt]{report}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{titlesec,xcolor}
+
+%Default sections formatting
+%\titleformat{\chapter}[display]{\normalfont\huge\bfseries}{%
+%\chaptertitlename\ \thechapter}{20pt}{\Huge}
+%\titlespacing*{\chapter} {0pt}{50pt}{40pt}
+%
+%\titleformat{\section}{\normalfont\Large\bfseries}{\thesection}{1em}{}
+%\titlespacing*{\section} {0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+%
+%\titleformat{\subsection}{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+%\titlespacing*{\subsection} {0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+%
+%\titleformat{\subsubsection}{\normalfont\normalsize\bfseries}{\thesubsubsection}{1em}{}
+%\titlespacing*{\subsubsection}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+%
+%\titleformat{\paragraph}[runin]{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+%\titlespacing*{\paragraph} {0pt}{3.25ex plus 1ex minus .2ex}{1em}
+%
+%\titleformat{\subparagraph}[runin]{\normalfont\normalsize\bfseries}{\thesubparagraph}{1em}{}
+%\titlespacing*{\subparagraph} {\parindent}{3.25ex plus 1ex minus .2ex}{1em}
+
+%Custom sections formatting
+\titleformat{\chapter}{\bfseries\centering{\color{red}\titlerule[1.5pt]}}{\thechapter.}{10pt}{\huge}[\color{red}{\titlerule[1.5pt]}]
+\titlespacing{\chapter}{0pt}{0pt}{20pt}
+
+\titleformat{\section}{\bfseries\large\color{magenta}	}{\thesection}{0.5em}{}[\color{blue}\titlerule]
+\titlespacing{\section}{0pt}{3ex plus 1ex minus 0.2ex}{10pt}
+
+\titleformat{\paragraph}[runin]{\bfseries\normalsize}{\theparagraph}{}{}
+\titlespacing{\paragraph}{0pt}{3ex}{0.5em}
+
+\begin{document}	
+\chapter{Introduction}
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+section{This is heading level one} 
+It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+\section{This is heading level one} 
+It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+\subsection{This is heading level two} 
+It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+\subsubsection{This is heading level three} 
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+
+\paragraph{This is heading level four.} 
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+\subparagraph{This is heading level five.} 
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+\end{document}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
