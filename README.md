@@ -1,5 +1,7 @@
 # LaTeX (MS Windows and Linux Mint/Ubuntu)
 
+[Youtube install on windows](https://www.youtube.com/watch?v=gH7UgkWi7Hk&t=152s)
+
 ## Explore
 
 Check first if all is prepared (see below 'preparing' for Linux or Windows).
