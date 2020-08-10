@@ -45,7 +45,7 @@ Install choco:
 
 - [Chocolatey](https://chocolatey.org/)
 
-With choco, install pandoc and all tools:
+With choco, install pandoc and all tools (beware! This takes a while):
 
 - [Pandoc](https://pandoc.org/): `choco install pandoc`
 - [rsvg-convert](https://wiki.gnome.org/Projects/LibRsvg): `choco install rsvg-convert`
