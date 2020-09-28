@@ -1,0 +1,143 @@
+\documentclass[]{report}
+ 
+% https://ctan.org/pkg/xecjk
+\usepackage{xeCJK}
+\usepackage{mathtools}
+\usepackage{lipsum}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage{chemfig}
+
+ 
+
+\begin{document}
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\chapter{Introduction}
+
+This is my first LaTeX document.
+
+这是我的第一个LaTeX文档。
+
+\section{Why LaTeX?}
+
+白色的半圆大厅中一片死寂，仿佛时间也被封闭在这里不再流动，真的很像坟墓。以后这儿就是她的全部世界了。她首先要做的是让这里恢复生活的气息。她不想像罗辑那样，她不是战士和决斗者，她是女人，毕竟要在这里度过很长时间，可能是十年、半个世纪，其实她为这个使命准备了一生，所以站在这漫长道路的起点，她很坦然。
+
+但命运却再次显示了它的怪异无常，程心准备了一生的执剑人生涯，从她接过红色开关时起，仅仅持续了十五分钟便结束了。
+
+\subsection{Typesetting Signs}
+
+This is how to insert a \% sign.
+
+This is how to insert a \$ sign.
+
+\subsection{Dummy Text}
+
+\lipsum
+
+\chapter{Mathematics}
+
+Text mode
+
+$Math mode$
+
+\section{One VS Two \$ Signs}
+
+Protons and electrons have charges of equal magnitude, but opposite sign. The magnitude of these charges is known as the elementary charge and has a value of $e=1.602\times 10^{-19}\ C$.
+
+Protons and electrons have charges of equal magnitude, but opposite sign. The magnitude of these charges is known as the elementary charge and has a value of $$e=1.602\times 10^{-19}\ C$$
+
+$$\frac{numerator}{denominator}$$
+
+\section{Equation Environment}
+
+Equation \ref{eq:Straight Line} is the equation of a straight line.
+\begin{equation} \label{eq:Straight Line}
+y=mx+c
+\end{equation}
+
+Equation \ref{eq:Quadratic Equation Roots} determines the roots of a quadratic equation.
+\begin{equation} \label{eq:Quadratic Equation Roots}
+x=\frac{-b\pm \sqrt{b^2-4ac}}{2a}
+\end{equation}
+
+\section{Long Equations}
+
+\begin{equation}
+\left[ \left( \overline{h}_f \right)_{T,P} \right]_{H_2} = \left[ \left( \overline{h}_f \right)_{T_{Ref}} \right]_{H_2} + \\
+\left[M \left\{ C_0T + \frac{C_1T^2}{2(1000)} + \frac{C_2T^3}{3(1000)^2} + \frac{C_3T^4}{4(1000)^3} - \right.\right. \\
+\left.\left. C_0T_{Ref} - \frac{C_1T_{Ref}^2}{2(1000)} - \frac{C_2T_{Ref}^3}{3(1000)^2} - \frac{C_3T_{Ref}^4}{4(1000)^3} \right\} \right]_{H_2}
+\end{equation}
+
+\begin{multline}
+\left[ \left( \overline{h}_f \right)_{T,P} \right]_{H_2} = \left[ \left( \overline{h}_f \right)_{T_{Ref}} \right]_{H_2} + \\
+\left[M \left\{ C_0T + \frac{C_1T^2}{2(1000)} + \frac{C_2T^3}{3(1000)^2} + \frac{C_3T^4}{4(1000)^3} - \right.\right. \\
+\left.\left. C_0T_{Ref} - \frac{C_1T_{Ref}^2}{2(1000)} - \frac{C_2T_{Ref}^3}{3(1000)^2} - \frac{C_3T_{Ref}^4}{4(1000)^3} \right\} \right]_{H_2}
+\end{multline}
+
+\section{Aligned Equations}
+
+\begin{align}
+{x_{rms}}&=\sqrt{\dfrac{x_{amp}^2}{2\Biggl(\dfrac{2\pi}{\mu}\Biggr)}\left[ \dfrac{2\pi}{\mu}+\dfrac{\sin{\Biggl(2\mu\left(\dfrac{2\pi}{\mu}\right)+2\gamma_x\Biggr)}}{2\mu}-\dfrac{\sin{(2\gamma_x)}}{2\mu} \right]} \\
+&=\sqrt{\dfrac{\mu x_{amp}^2}{4\pi}\Biggl[ \dfrac{2\pi}{\mu}+\dfrac{\sin{(4\pi +2\gamma_x)}}{2\mu}-\dfrac{\sin{(2\gamma_x)}}{2\mu} \Biggr]} \\
+&=\sqrt{\dfrac{\mu x_{amp}^2}{4\pi}\Biggl[ \dfrac{2\pi}{\mu}+\dfrac{\sin{(2\gamma_x)}}{2\mu}-\dfrac{\sin{(2\gamma_x)}}{2\mu} \Biggr]} \\
+&=\sqrt{\dfrac{x_{amp}^2}{2}} \\
+&=\dfrac{x_{amp}}{\sqrt{2}}
+\end{align}
+
+\begin{align*}
+{x_{rms}}&=\sqrt{\dfrac{x_{amp}^2}{2\Biggl(\dfrac{2\pi}{\mu}\Biggr)}\left[ \dfrac{2\pi}{\mu}+\dfrac{\sin{\Biggl(2\mu\left(\dfrac{2\pi}{\mu}\right)+2\gamma_x\Biggr)}}{2\mu}-\dfrac{\sin{(2\gamma_x)}}{2\mu} \right]} \\
+&=\sqrt{\dfrac{\mu x_{amp}^2}{4\pi}\Biggl[ \dfrac{2\pi}{\mu}+\dfrac{\sin{(4\pi +2\gamma_x)}}{2\mu}-\dfrac{\sin{(2\gamma_x)}}{2\mu} \Biggr]} \\
+&=\sqrt{\dfrac{\mu x_{amp}^2}{4\pi}\Biggl[ \dfrac{2\pi}{\mu}+\dfrac{\sin{(2\gamma_x)}}{2\mu}-\dfrac{\sin{(2\gamma_x)}}{2\mu} \Biggr]} \\
+&=\sqrt{\dfrac{x_{amp}^2}{2}} \\
+&=\dfrac{x_{amp}}{\sqrt{2}}
+\end{align*}
+
+\chapter{Figures}
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=100mm]{./Pictures/Cat.jpg}
+\caption{Grumpy Cat}
+\label{fig:Grumpy Cat}
+\end{figure}
+
+From figure \ref{fig:Grumpy Cat}, it is evident that the cat is grumpy.
+
+\chapter{Tables}
+
+Table \ref{table:water_ionization_constants} shows some ionization constants for water at different temperatures.
+\begin{center}
+\begin{table}[!ht]
+\centering
+\begin{tabular}{ !{\vrule width 1pt}c!{\vrule width 1pt}c!{\vrule width 1pt}}
+\noalign{\hrule height 1pt}
+\cellcolor[gray]{0.9} \textbf{Temperature $[^{\circ}\mathrm{C}]$} &
+\cellcolor[gray]{0.9} \textbf{Ionization constant $K_w$}
+\\ \noalign{\hrule height 1pt}
+10 & $0.29\times 10^{-14}$
+\\ \hline
+15 & $0.45\times 10^{-14}$
+\\ \hline
+20 & $0.68\times 10^{-14}$
+\\ \hline
+25 & $1.01\times 10^{-14}$
+\\ \hline
+30 & $1.47\times 10^{-14}$
+\\ \hline
+50 & $5.48\times 10^{-14}$
+\\ \noalign{\hrule height 1pt}
+\end{tabular}
+\caption{Ionization constants for water}
+\label{table:water_ionization_constants}
+\end{table}
+\end{center}
+
+\chapter{Chemistry}
+
+\chemfig{H_3C-C(=[:90]\lewis{0:4:,O})-[:-30]\lewis{2:,N}(-[:-90]H)-[:30]C*6(-C(-[:-90]H)=C(-[:-30]H)-C(-[:30]\lewis{0:6:,O}-[:90]H)=C(-[:90]H)-C(-[:150]H)=)}
+
+\end{document}

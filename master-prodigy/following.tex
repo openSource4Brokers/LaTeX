@@ -1,0 +1,48 @@
+\documentclass[12pt]{report} % 10, 11 (default) or 12
+
+% Instead of using \\ (or \newline/\vspace) to simulate paragraph breaks, or to increase inter-paragraph spacing,
+% the recommended solution for setting spacing between paragraphs is to load the parskip package:
+% put \usepackage{parskip} in your document’s preamble.
+% https://ctan.org/pkg/parskip
+\usepackage{parskip}
+\usepackage{mathtools}
+\usepackage{lipsum}
+
+% this is a comment line
+% a package to use chinese is commented out below
+% \usepackage{xeCJK}
+
+\begin{document}
+
+This is my first LaTeX document.
+
+% you need XeTeX for chinese
+% 这是我的第一个LaTeX文档。
+Next line, here (because blank line between).
+This is how to insert a \% sign.
+This is how to insert a \$ sign.
+
+\lipsum
+
+Text mode
+$Math mode$
+
+Protons and electrons have charges of equal magnitude, but opposite sign. The magnitude of these charges is known as the elementary charge and has a value of $e=1.602\times 10^{-19}\ C$.
+
+Protons and electrons have charges of equal magnitude, but opposite sign. The magnitude of these charges is known as the elementary charge and has a value of $$e=1.602\times 10^{-19}\ C$$
+
+$$\frac{numerator}{denominator}$$
+
+Equation \ref{eq:Straight Line} is the equation of a straight line.
+
+\begin{equation} \label{eq:Straight Line}
+y=mx+c
+\end{equation}
+
+Equation \ref{eq:Quadratic Equation Roots} determines the roots of a quadratic equation.
+\begin{equation} \label{eq:Quadratic Equation Roots}
+x=\frac{-b\pm \sqrt{b^2-4ac}}{2a}
+\end{equation}
+
+
+\end{document}

@@ -1,14 +1,15 @@
 \documentclass[10pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[english]{babel}
+\usepackage[dutch]{babel}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 %\usepackage{graphicx}
 \usepackage{natbib}
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[margin=2cm]{geometry}
+%\usepackage[left=4cm,right=2cm,top=2cm,bottom=2cm]{geometry}
 \author{Arun Prasaad Gunasekaran}
-\title{Citations}
+\title{Citaten}
 
 %\bibliographystyle{plain} % Alphabetical Order
 %\bibliographystyle{alpha} % Alpha numeric Citation
@@ -16,12 +17,16 @@
 \bibliographystyle{apalike}
 
 \begin{document}
-
 \maketitle
-hello!
-There is a paper by a person named Forget \citep{forget_1991} on Martian Atmosphere GCM. Other papers, for instance, Gierasch \citep{gierasch1968study}, Conrath, \cite{conrath1975thermal} also explain some research topics on Mars.
+
+Hello!
+There is a paper by a person named
+Forget \citep{forget_1991} on Martian Atmosphere GCM.
+
+Other papers, for instance,
+Gierasch \citep{gierasch1968study}, Conrath, \cite{conrath1975thermal}
+also explain some research topics on Mars.
 
 \bibliography{references}
 
 \end{document}
-

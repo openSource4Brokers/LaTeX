@@ -1,0 +1,123 @@
+%%%%%%%%%%%%%%%%%%%%% Code listing by C.Has %%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt, a4paper]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{cleveref}
+\usepackage{xcolor}
+\renewcommand{\lstlistingname}{Code}
+\renewcommand{\lstlistlistingname}{List of Code}
+
+\lstdefinestyle{chstyle}{%
+backgroundcolor=\color{gray!12},
+basicstyle=\ttfamily\small,
+commentstyle=\color{green!60!black},
+keywordstyle=\color{magenta},
+stringstyle=\color{blue!50!red},
+showstringspaces=false,
+%captionpos=b,
+numbers=left,
+numberstyle=\footnotesize\color{gray},
+numbersep=10pt,
+%stepnumber=2,
+tabsize=2,
+frame=L,
+framerule=1pt,
+rulecolor=\color{red},
+breaklines=true,
+inputpath=code
+}
+
+\title{How to Include Source Code in \LaTeX}
+\author{Chandra Has}\date{}
+
+\begin{document}
+\maketitle
+\hrule
+
+\lstlistoflistings
+
+\newpage
+
+\begin{lstlisting}[caption=Sample example of C programming language, label=c-sample, style=chstyle, language=C]
+//==================================================
+//sample example of C programming language
+//==================================================
+
+#include <stdio.h>
+
+void main()
+{
+	int num;
+	
+	printf("Enter a number: \n");
+	scanf("%d", &num);
+	if (num > 0)
+	printf("%d a positive number \n", num);
+	else if (num < 0)
+	printf("%d a negative number \n", num);
+	else
+	printf("0 is neither positive nor negative");
+}
+
+//====================================================
+\end{lstlisting}
+
+\Cref{c-sample}
+
+\newpage
+
+\lstinputlisting[language=C, style=chstyle, caption=Sample example of C programming language, label=c-sampe2]{sample1.c}
+
+\newpage
+
+\lstinputlisting[language=C++, style=chstyle, caption=Sample example of C++ programming language, label=cpp-sample]{sample2.cpp}
+
+\newpage
+
+\lstinputlisting[language=Matlab, style=chstyle, caption=Sample example of Matlab programming language, label=m-sample]{sample3.m}
+
+\newpage
+
+\lstinputlisting[language=Python, style=chstyle, firstline=1, lastline=50, caption=Sample example of Python programming language, label=py-sample]{sample4.py}
+
+\newpage
+
+\lstinputlisting[language=Bash, style=chstyle, firstline=1, lastline=74, caption=Sample example of Markdown, label=md-sample]{README.md}
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
